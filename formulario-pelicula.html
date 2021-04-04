@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario-pelicula.css">
+    <title>Pelicula</title>
+</head>
+
+<body>
+    <img src="images/Logo.png">
+    <img src="images/NombreEmpresa.png">
+    <nav>
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Proximamente</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Ingresar</a></li>
+            <li><a href="#">Registrarse</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="form-style-2">
+            <div class="form-style-2-heading">Registrar información de la película</div>
+            <form action="" method="post">
+                <label for="field1"><span>Nombre <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+                <label for="field4"><span>Cartelera</span>
+                <select name="field4" class="select-field">
+                    <option value="General Question">Accion</option>
+                    <option value="Advertise">Animada</option>
+                    <option value="Partnership">Terror</option>
+                </select>
+                <i class="pluss-add">+</i>
+            </label>
+                <label for="field5"><span>Descripcion <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+
+                <label for="field5"><span>Portada <span class="required">*</span></span>
+                    <img class="upload-img" src="./images/ilustracion-icono-carga_53876-6323.jpg" alt="df">
+                </label>
+
+                <div class="reserva-from-control" style="padding-left: 100px;">
+                    <input type="button" value="Reservar" class="reserva-button">
+                    <input type="button" value="Cancelar" class="reserva-button">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
