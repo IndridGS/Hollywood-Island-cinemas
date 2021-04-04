@@ -1,0 +1,144 @@
+
+
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+
+}
+.menu li a : hover {
+	background: #ef8354;
+}
+
+img {
+
+	width: 15%;
+	height: 15%;
+
+}
+.peli1{
+	background: none;
+	width: 1500px;
+	height: 1800px;
+	padding: 0;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: 300px;
+	margin-right: 0px;
+}
+.peli2{
+	background: none;
+	width: 1500px;
+	height: 1800px;
+	padding: 0;
+	margin-top: -1800px;
+	margin-bottom: 0px;
+	margin-left: 600px;
+	margin-right: 0px;
+
+}
+.peli3{
+	background: none;
+	width: 1500px;
+	height: 1800px;
+    padding: 0;
+	margin-top: -1800px;
+	margin-bottom: 0px;
+	margin-left: 900px;
+	margin-right: 0px;
+
+}
+
+.peli3{
+	background: none;
+	width: 1500px;
+	height: 1800px;
+    padding: 0;
+	margin-top: -1800px;
+	margin-bottom: 0px;
+	margin-left: 900px;
+	margin-right: 0px;
+}
+.peli4{
+	background: none;
+	width: 1500px;
+	height: 1800px;
+    padding: 0;
+	margin-top: -1450px;
+	margin-bottom: 0px;
+	margin-left: 300px;
+	margin-right: 0px;
+}
+.peli5{
+	background: none;
+	width: 1500px;
+	height: 1800px;
+    padding: 0;
+	margin-top: -1800px;
+	margin-bottom: 0px;
+	margin-left: 600px;
+	margin-right: 0px;
+
+}
+
+.peli6{
+	background: none;
+	width: 1500px;
+	height: 1800px;
+    padding: 0;
+	margin-top: -1800px;
+	margin-bottom: 0px;
+	margin-left: 900px;
+	margin-right: 0px;
+}
+.enlace1
+{
+	background:none;
+	width: 1000px;
+	height: 1200px;
+	margin-top: 150px;
+	margin-left: -600px;
+}
+.enlace2
+{
+	background: none;
+	width: 1000px;
+	height: 1200px;
+	margin-top: -1198px;
+	margin-left: -280px;
+}
+.barra1
+{
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	height: 2%;
+	max-width: 1000px;
+	margin-top: -1250px;
+	margin-left: -600px;
+	text-align: center;
+	color: white;
+
+}
+
+
+}
