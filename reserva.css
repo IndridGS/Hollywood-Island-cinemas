@@ -1,0 +1,87 @@
+.main {
+    margin: 0 auto;
+    width: 80%;
+    border: solid 1px black;
+    position: relative;
+    margin-top: 15px;
+    box-shadow: 5px 10px 25px black;
+}
+.main::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.reserva-img {
+    float: left;
+}
+.reserva-form {
+    padding-top: 40px;
+}
+.reserva-from-control {
+    padding: 7px;
+}
+
+.reserva-from-control select {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.reserva-from-control select option {
+    display: inline-block;
+    padding: 25px;
+}
+
+.go-to-reseva {
+    position: absolute;
+    bottom: 12px;
+    margin-left: 10px;
+    border: solid 1px lightgray;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+}
+.go-to-reseva:hover, .reserva-button:hover  {
+   background-color: lightslategray;
+}
+
+.reserva-button {
+    padding: 10px;
+    border: solid 1px lightgray;
+    border-radius: 15px;
+}
+
+
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+
+}
+.menu li a:hover {
+	background: #ef8354;
+}
+
+label {
+    margin-left: 10px;
+}
