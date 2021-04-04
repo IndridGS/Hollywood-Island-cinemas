@@ -25,7 +25,7 @@ body{
 	text-align: center;
 
 }
-.menu li a : hover {
+.menu li a:hover{
 	background: #ef8354;
 }
 
@@ -139,6 +139,101 @@ img {
 	color: white;
 
 }
+.barra1  
 
+h1 {
+    font-size: 15pt;
+    color: #20bcd5;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span{
+	border: 4px dashed #20bcd5;
+	padding: 10px;
+}
+table{
+	width: 80%;
+	font-size: 11pt;
+	}
+
+table,th,td {
+border:	2px solid #cecece;
+border-collapse: collapse;;
+text-align: center;
+table-layout: fixed;
+}
+.boton1{
+	padding: 3px;
+	padding-left: 10px;
+	font-size: 25px;
+	color: #e43b3b;
+	background-color: #dcf3f2;
+	border-radius:5px ;	
+}
+.escudo
+{
+	width: 600px;
+	height: 600px;
+	margin-top: 350px;
+	margin-left: -300px;
+	
+}
+.logo{
+	width: 600px;
+	height: 600px;
+	margin-top: -600px ;
+	margin-left:-150px;
+}
+
+p{
+	text-align: center;
+	margin-top: -500px;
+	margin-left: -200px;
+	color: #092327;
+}
+.menu2{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu2 li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu2 li{
+	display: inline-block;
+	text-align: center;
+}
+.nor1{
+	width: 600px;
+	height: 600px;
+	margin-top: 60px ;
+	margin-left:450px;
+}
+
+.nor2{
+	width: 600px;
+	height: 600px;
+	margin-top: -600px ;
+	margin-left:550px;
 
 }
+
+
+
+
+
+
+
+
+
+
